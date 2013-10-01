@@ -38,10 +38,9 @@
 </div>
 <?endforeach?>
 
-<div class="span8 well">
 	<form accept-charset="UTF-8" action="" method="POST">
 		<textarea class="col-md-8" id="comment_text" name="comment_text"
 				  placeholder="Type in your message" rows="5"></textarea>
 		<button class="btn btn-info" type="submit">Post Comment</button>
 	</form>
-</div>
+
