@@ -26,6 +26,7 @@ class posts extends Controller
 		}
 
 
+
 	}
 
 	private function save()

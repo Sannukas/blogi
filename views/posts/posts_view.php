@@ -16,7 +16,7 @@
 			<div class="span8">
 				<p></p>
 				<p>
-					<i class="icon-user"></i> by <a href="#"><?=$post['username']?></a>
+					by <a href="<?=BASE_URL?>users/view/<?=$post['username']?>"><?=$post['username']?></a>
 					| <i class="icon-calendar"></i> <?=$post['post_created']?>
 					| <i class="icon-tags"></i> Tags : <?foreach ($tags as $tag):?><a href="<?=BASE_URL?>tags/view/<?=$tag['tag_name']?>"><span class="label label-info"><?=$tag['tag_name']?></span></a> <?endforeach?>
 				</p>

@@ -17,8 +17,6 @@ class tags extends Controller{
 			$this->tags[$tag['post_id']][] = $tag['tag_name'];
 		}
 
-
 	}
-
 
 }
