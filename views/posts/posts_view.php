@@ -1,3 +1,4 @@
+<div class="container" style="padding-left:25px">
 <div class="row">
 	<div class="span8">
 		<div class="row">
@@ -43,4 +44,4 @@
 				  placeholder="Type in your message" rows="5"></textarea>
 		<button class="btn btn-info" type="submit">Post Comment</button>
 	</form>
-
+</div>
